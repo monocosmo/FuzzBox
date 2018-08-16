@@ -15,12 +15,15 @@
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
                     <img id="index-img" src="<%= campground.image%>">
+                    
+                    <hr>
+                    
                     <div class="caption">
                         <h4><%= campground.name %></h4>
                     </div>
                     <hr>
                     <p class="text-center">
-                        <a href="/campgrounds/<%= campground._id %>" class="btn btn-primary">More Info</a>
+                        <a href="/campgrounds/<%= campground._id %>" class="btn btn-default">View Details</a>
                     </p>
                 </div>
             </div>
