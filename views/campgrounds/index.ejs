@@ -4,9 +4,11 @@
         <div class="container">
             <h1>Welcome To FuzzBox!</h1>
             <p>Share your thoughts on electric guitars, pedals and all other rock music instruments. Let's ROCK!</p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="/campgrounds/new">Add New Gear</a>
-            </p>
+            <hr>
+            <a class="pull-right" href="/campgrounds/new">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                  Share New Gear
+            </a>
         </div>
     </header>
     
@@ -15,9 +17,7 @@
             <div class="col-md-3 col-sm-6">
                 <div class="thumbnail">
                     <img id="index-img" src="<%= campground.image%>">
-                    
                     <hr>
-                    
                     <div class="caption">
                         <h4><%= campground.name %></h4>
                     </div>
